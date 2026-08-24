@@ -1,0 +1,46 @@
+{
+  "id": "./",
+  "name": "PakePlus - 网页打包工具",
+  "short_name": "PakePlus",
+  "description": "将任何网页打包成轻量级桌面应用",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f0f1a",
+  "theme_color": "#7c3aed",
+  "lang": "zh-CN",
+  "categories": ["developer", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "查看特性",
+      "url": "./#features",
+      "description": "查看 PakePlus 的核心特性"
+    },
+    {
+      "name": "快速开始",
+      "url": "./#quickstart",
+      "description": "了解如何使用 PakePlus"
+    }
+  ]
+}
